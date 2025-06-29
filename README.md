@@ -93,13 +93,11 @@ The app will be accessible in your browser at [http://localhost:8501](http://loc
 ## 📂 Project Structure
 
 ```
-agribharat/
-├── app.py                # Main Streamlit application UI and logic
-├── core.py               # Core multi-agent logic using Google ADK
-├── translations.py       # All multilingual UI text and translations
-├── requirements.txt      # Python package dependencies
-├── .env                  # Environment variables (not tracked by Git)
-└── README.md             # This file
+ app.py                # Main Streamlit application UI and logic
+ core.py               # Core multi-agent logic using Google ADK
+ translations.py       # All multilingual UI text and translations
+ requirements.txt      # Python package dependencies
+ README.md          # This file
 ```
 
 ---
