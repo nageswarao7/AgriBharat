@@ -45,8 +45,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/agribharat.git
-cd agribharat
+git clone https://github.com/nageswarao7/AgriBharat.git
 ```
 
 ### 2. Create and Activate a Virtual Environment
