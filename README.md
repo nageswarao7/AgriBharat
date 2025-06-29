@@ -97,7 +97,7 @@ The app will be accessible in your browser at [http://localhost:8501](http://loc
  core.py               # Core multi-agent logic using Google ADK
  translations.py       # All multilingual UI text and translations
  requirements.txt      # Python package dependencies
- README.md          # This file
+ README.md             # This file
 ```
 
 ---
