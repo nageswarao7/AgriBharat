@@ -273,7 +273,7 @@ with tab2:
                 try:
                     image_data = uploaded_image.read()
                     response = asyncio.run(run_comprehensive_disease_analysis(image_data=image_data, user_question=image_question if image_question else t["image_question_placeholder"], language=st.session_state.selected_language))
-                    st.image(uploaded_image, caption=t["uploaded_image_caption"], use_column_width=True)
+                    st.image(uploaded_image, caption=t["uploaded_image_caption"], use_container_width=True)
                     st.markdown(f"""<div class="response-card"><h3>{t['analysis_title']}</h3><p>{response}</p></div>""", unsafe_allow_html=True)
                     st.session_state.consultation_history.append({"type": "disease_analysis", "question": image_question if image_question else t["image_question_placeholder"], "response": response, "language": st.session_state.selected_language})
                 except Exception as e:
